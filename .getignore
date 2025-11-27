@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (Keep your local libraries out of the repo)
+venv/
+env/
+.venv/
+.env_sec/
+
+# --- Security & Secrets (CRITICAL) ---
+# Never commit your Canvas API Tokens or Passwords!
+.env
+.env.local
+config.py
+secrets.json
+canvas_token.txt
+
+# --- Operating System Junk ---
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
+Desktop.ini
+
+# --- IDE & Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
+npm-debug.log*
